@@ -1,0 +1,9 @@
+#!/usr/local/bin/zsh
+
+STR="ex"1_$1".rkt"
+touch $STR
+
+# for i in ex*.rkt; do
+#     n=$(echo $i | cut -f 1 -d '.' | cut -c 4-)
+#     mv $i "ex1_$n.rkt"
+# done
