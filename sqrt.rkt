@@ -13,7 +13,7 @@
 (define (average x y) (/ (+ x y) 2))
 
 (define (enough_exact guess x)
-    (< (abs (- (sqr guess) x) ) 0.001 
+    (< (abs (- (sqr guess) x) ) 0.001
     )
 
 )
