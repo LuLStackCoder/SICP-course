@@ -25,4 +25,4 @@
 )
 
 
-(count-change 1000)
+(count-change 10)
